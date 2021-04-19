@@ -1,3 +1,5 @@
 Class 1 of WebDev ends with this
 
 We learnt how to commit and push codes on github
+
+to view hidden folder in mac use cmd+shft+.

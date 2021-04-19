@@ -8,6 +8,7 @@
 
 # only write once whennever new folder is created
 * git init (initializes a empty git folder)
+# hidden folders can be seen by cmd+shft+.
 
 # to add a remote
 * git remote add origin https://github.com/KetanMehlawat08/DEV_PP_11.git
