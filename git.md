@@ -13,4 +13,6 @@
 * git remote add origin https://github.com/KetanMehlawat08/DEV_PP_11.git
 
 # ALWAYS STEPS
-* git add . (Untracke)
+* git add . (UntrackedFiles/modifiedFiles=>Staged Files)
+* git commit -m "commit message" (Put a checkpoint on the code)
+* git push -u origin master
