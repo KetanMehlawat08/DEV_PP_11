@@ -69,7 +69,7 @@ values.push("Captain america !!");
 // console.log(values);
 
 // Objects => key values pair
-// keys => unique
+// keys => unique and is string by default
 
 let obj = {
     "Full Name":"Steve Rogers",
