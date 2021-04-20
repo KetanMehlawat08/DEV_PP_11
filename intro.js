@@ -83,7 +83,7 @@ let obj = {
 }
 
 
-console.log(obj.movies[2].weaknes[0].substring(1,5))
+console.log(obj.movies[2].weaknes[0].substring(1,5))  //here [2] to access 3rd item of  movies and weaknes[0] is to access object of array not whole array
 
 
 // get a value of a key in object
