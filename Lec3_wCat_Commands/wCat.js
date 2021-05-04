@@ -23,7 +23,7 @@ function applySFlag(f1KaData) {
   // Bye I am F1
   let emptyIncluded = false;
   let removedSpaces = [];
-  let splittedData = f1KaData.split("\r\n");
+  let splittedData = f1KaData.split("\n");  //splitted on the basis of \n (new line or enter)
   //   [ 'Hey I am F1', '', '', '', '',  '','Bye I am F1', ''];
   console.log(splittedData);
 
@@ -33,11 +33,11 @@ function applySFlag(f1KaData) {
       emptyIncluded = true;
     } else if (splittedData[i] != "") {
       removedSpaces.push(splittedData[i]);
-      if(i < splittedData.length-2 ) emptyIncluded = false;
+      if(i < splittedData.length-2 ) emptyIncluded = false;  //spaces after storing first space
     }
   }
 
-  let removedSpacesString = removedSpaces.join("\r\n");
+  let removedSpacesString = removedSpaces.join("\n");
   return removedSpacesString;
   // Hey I am F1
   // space
