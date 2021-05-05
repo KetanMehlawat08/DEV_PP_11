@@ -13,7 +13,7 @@ console.log(sub2);
 // IMPORTANT !!!!
 //slice when used with 'process.argv' is also used to make multiple inputs in form of array
 
-let input=process.argv[2];  //2 removes those two lines of file destination
+let input=process.argv.slice(2);  //2 removes those two lines of file destination
 console.log(input); 
 
 
