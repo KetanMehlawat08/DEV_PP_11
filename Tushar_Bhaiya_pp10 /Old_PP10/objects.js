@@ -1,6 +1,6 @@
 //let obj={};
 //console.log(obj);
-//object is key:value pair where key is always string by default so no need to make it a string with ' '
+//In javascript object is key:value pair where key is always string by default so no need to make it a string with ' '
 //tony is an object here
 //object nesting possible (object ke andar object)
 let tony={
@@ -31,13 +31,20 @@ let tony={
 // //type 2
 // console.log(tony['name']);
 // console.log(tony['address']['city']);
-// console.log(tony['friends'][0]);
+//console.log(tony['friends'][0]);
+//console.log(tony['friends'].slice(0));
 
 let karr=Object.keys(tony);   //shows the keys of tony
 console.log(karr)   //print keys
 //to print values of keys 
 
-for(let k in tony)  //new type of 'for' loop
+for(let key in tony)  //new type of 'for' loop this will print all keys
+{
+     console.log(key);  // (important) if we used console.log(tony.k) i.e.first way to ye tony object mai k dhundta and undefined print kar deta that's why we used second way; this is the difference between both ways
+ }
+
+
+ for(let k in tony)  //new type of 'for' loop this will print all values
 {
      console.log(tony[k]);  // (important) if we used console.log(tony.k) i.e.first way to ye tony object mai k dhundta and undefined print kar deta that's why we used second way; this is the difference between both ways
  }
@@ -46,3 +53,7 @@ for(let k in tony)  //new type of 'for' loop
 //     //console.log(key);
 //     console.log(tony[karr[i]]);
 // }
+
+//1st way mai '.' lagane pe wo apne andar search karega
+
+// consider second way as array and use slice splice and other array functions
