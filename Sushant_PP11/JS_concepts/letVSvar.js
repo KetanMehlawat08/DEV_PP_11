@@ -55,4 +55,7 @@ function callMe(){
 }
 callMe();
 
-console.log(a);   //prints 50 as this is bahar ka 'a' not function's 'a'
+console.log(a);   //prints 50 as this is bahar ka 'a' not function's 'a' anf if loop changes value of a globally bcoz of var
+
+
+
