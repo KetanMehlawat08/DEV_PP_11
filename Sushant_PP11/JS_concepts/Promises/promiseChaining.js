@@ -30,8 +30,8 @@ f1KaPromise.then(function(data){
 // if Pending Promise is Resolved => success callback is invoked
 // if Pending Promise is Rejected => failure callback is invoked
 
-// scb can be attached to pending promise using then function
-// fcb can be attached to pending promises using catch function
+// scb (success call back) can be attached to pending promise using then function
+// fcb (failure call back) can be attached to pending promises using catch function
 
 // then and catch can only be called on pending promises
 
